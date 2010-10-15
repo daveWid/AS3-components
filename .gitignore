@@ -1,0 +1,8 @@
+# Ignore all of the .DS_Store files
+.DS_Store
+
+# Now all of the Flash Builder stuff
+.actionScriptProperties
+.flexLibProperties
+.project
+.settings
