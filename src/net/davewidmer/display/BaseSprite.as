@@ -3,9 +3,9 @@
  * that are used in this set of classes.
  *
  * @author	Dave Widmer
- * @see	http://www.davewidmer.net
+ * @see		http://www.davewidmer.net
  *
- * @license	[Put whatever free license stuff here]
+ * @license	MIT (http://www.opensource.org/licenses/mit-license.php)
  * @copyright	2010 © Dave Widmer
  */
 package net.davewidmer.display
