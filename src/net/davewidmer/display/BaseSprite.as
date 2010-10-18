@@ -37,6 +37,20 @@ package net.davewidmer.display
 		}
 
 		/**
+		 * Sets a group of instance properties instead of setting
+		 * them individually.
+		 *
+		 * @param	props	An object of properties to set.
+		 */
+		public function setProperties(props:Object):void
+		{
+			for (var key:String in props)
+			{
+				this[key] = props[key];
+			}
+		}
+
+		/**
 		 * This function runs after this instance has been added to the stage.
 		 *
 		 * @param	event	ADDED_TO_STAGE event
